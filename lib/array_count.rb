@@ -15,4 +15,6 @@ def count_empty_strings(array)
   array.count do |element|
     if(element.blank)
       count += 1
+    end
+  end
 end
